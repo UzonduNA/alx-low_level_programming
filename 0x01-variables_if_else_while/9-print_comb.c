@@ -14,10 +14,12 @@ int num;
 	{
 		putchar((num % 10) + '0');
 
-		if (num < 10)
-		
-		putchar(',');
-		putchar(' ');
+		if (num == 9)
+
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 
