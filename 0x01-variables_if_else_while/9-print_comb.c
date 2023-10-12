@@ -16,7 +16,6 @@ int num;
 
 		if (num < 10)
 		
-		continue;
 		putchar(',');
 		putchar(' ');
 	}
